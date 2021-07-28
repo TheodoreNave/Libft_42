@@ -80,5 +80,6 @@ char				*ft_strjoin_free(char *s1, char *s2);
 char				*get_str_new_line(char *new_line);
 int					get_next_line(int fd, char **line);
 int					get_len(char *str);
+void				free_split(char **tab);
 
 #endif
