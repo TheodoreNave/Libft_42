@@ -79,7 +79,8 @@ int					ft_lstsize(t_list *lst);
 char				*ft_strjoin_free(char *s1, char *s2);
 char				*get_str_new_line(char *new_line);
 int					get_next_line(int fd, char **line);
-int					get_len(char *str);
+int				get_len(char *str);
 void				free_split(char **tab);
-
+char				*ft_strjoin_three(char *s1, char *s2, char *s3);
+int				ft_strequ(char *s1, char *s2);
 #endif
