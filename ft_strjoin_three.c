@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/pipex.h"
+#include "libft.h"
 
 char	*ft_strjoin_three(char *s1, char *s2, char *s3)
 {
